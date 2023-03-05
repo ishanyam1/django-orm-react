@@ -1,0 +1,1 @@
+export { CRUDForm } from './CRUDForm';

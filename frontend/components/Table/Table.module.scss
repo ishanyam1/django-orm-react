@@ -1,0 +1,29 @@
+.table {
+    text-align: center;
+    width: 100%;
+    overflow: scroll;
+}
+
+.headerTable {
+    padding: 1.5rem 0;
+    background-color: var(--almost-black);
+    color: var(--white);
+    min-width: 576px;
+}
+
+.row {
+    padding: 1.5rem 0;
+    min-width: 576px;
+
+    &:nth-child(odd) {
+        background-color: var(--white);
+    }
+
+    &:nth-child(even) {
+        background-color: var(--almost-white);
+    }
+}
+
+.column {
+    flex-basis: 33.33%;
+}
